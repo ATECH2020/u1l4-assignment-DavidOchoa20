@@ -16,7 +16,7 @@ class AnalogClock {
         
         int angOfMin = (int) currMins * 6;
         
-        System.out.println(angOfMin);
+        System.out.print(angOfMin);
 
         // closing the scanner object
         scanner.close();
