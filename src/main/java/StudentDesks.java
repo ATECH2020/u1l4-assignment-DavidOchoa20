@@ -19,7 +19,7 @@ class StudentDesks {
         if (group3Count % deskSpace != 0) deskNeeded++;
 
         //Outputs
-        System.out.print("Desks Needed: " + deskNeeded);
+        System.out.print(deskNeeded);
         
 
         // closing the scanner object
