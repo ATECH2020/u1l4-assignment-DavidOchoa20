@@ -9,10 +9,10 @@ class AnalogClock {
         //Reads ints from user
         double degHour = scanner.nextDouble();
 
-        //Determines hours and the minutes
+         /*
+         *  your code goes here
+         */
         double currMins = degHour % 30 * 2;
-
-        //Detemines the angle of min hand
         int angOfMin = (int) currMins * 360 / 60;
         System.out.println(angOfMin);
 
