@@ -7,15 +7,19 @@ class AnalogClock {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
+        int degInHour;
+        int currHour;
+        int currMins;
+        int angOfMin;
         int degHour = scanner.nextInt();
 
         //Determines hours and the minutes
-        int degInHour = 30;
-        int currHour = degHour / degInHour;
-        int currMins = degHour % degInHour * 2;
+        degInHour = 30;
+        currHour = degHour / degInHour;
+        currMins = degHour % degInHour * 2;
 
         //Detemines the angle of min hand
-        int angOfMin = currMins * 360 / 60;
+        angOfMin = currMins * 360 / 60;
         System.out.println(angOfMin);
 
         // closing the scanner object
