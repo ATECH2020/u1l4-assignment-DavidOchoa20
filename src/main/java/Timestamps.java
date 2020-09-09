@@ -14,11 +14,14 @@ class Timestamps {
         int minutes2 = scanner.nextInt();
         int seconds2 = scanner.nextInt();
 
+        int secInHour = 3600;
+        int secInMin = 60;
 
-        /*
-         *  your code goes here
-         */
+        //Calcs seconds passed between both time stamps
+        int secPassed = ((hours2 - hours1) * secInHour) + ((minutes2 - minutes1) * secInMin) + (seconds2 - seconds1);
 
+        //Prints outcome
+        System.out.print(secPassed);
 
         // closing the scanner object
         scanner.close();
