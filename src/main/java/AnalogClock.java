@@ -12,8 +12,10 @@ class AnalogClock {
          /*
          *  your code goes here
          */
-        double currMins = degHour % 30 * 2;
-        int angOfMin = (int) currMins * 360 / 60;
+        double currMins = (degHour % 30) * 2;
+        
+        int angOfMin = (int) currMins * 6;
+        
         System.out.println(angOfMin);
 
         // closing the scanner object
