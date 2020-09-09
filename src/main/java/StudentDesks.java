@@ -7,11 +7,8 @@ class StudentDesks {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-        System.out.println("Students in group 1: ");
         int group1Count = scanner.nextInt();
-        System.out.println("Students in group 2: ");
         int group2Count = scanner.nextInt();
-        System.out.println("Students in group 3: ");
         int group3Count = scanner.nextInt();
 
         //Calcs desks Needed
