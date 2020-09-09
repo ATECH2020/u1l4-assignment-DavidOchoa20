@@ -9,7 +9,11 @@ class SecondsPastMidnight {
         //Reads int from user
         int number = scanner.nextInt();
 
-        //Your code goes here
+        int secInMin = 60;
+        int secInHour = 3600;
+        int hourPassed = number / secInHour;
+        int minPassed = number / secInMin;
+        System.out.print(hourPassed + " " + minPassed);
 
 
         // closing the scanner object
